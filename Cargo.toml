@@ -1,0 +1,14 @@
+[package]
+name = "cortex9-lsm-engine"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+license = "Apache-2.0"
+description = "LSM-tree storage engine (WAL, memtable, SSTables with bloom filters, leveled compaction) tested by crashing at every write point"
+repository = "https://github.com/federiconbaez/cortex9-lsm-engine"
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+tempfile = "3"
